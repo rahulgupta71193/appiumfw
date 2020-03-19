@@ -1,0 +1,79 @@
+2020-03-17 18:52:04:342 [Appium] Welcome to Appium v1.15.1
+2020-03-17 18:52:04:344 [Appium] Non-default server args:
+2020-03-17 18:52:04:345 [Appium]   logFile: C:\Users\rahul\Desktop\Appium note\AppiumTesting\AppiumTesting\src\test\resources\appiumlogs\logs.txt
+2020-03-17 18:52:04:698 [Appium] Appium REST http interface listener started on 0.0.0.0:4723
+2020-03-17 18:52:05:178 [HTTP] --> GET /wd/hub/status
+2020-03-17 18:52:05:179 [HTTP] {}
+2020-03-17 18:52:05:183 [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2020-03-17 18:52:05:184 [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.15.1"}}
+2020-03-17 18:52:05:211 [HTTP] <-- GET /wd/hub/status 200 27 ms - 68
+2020-03-17 18:52:05:214 [HTTP] 
+2020-03-17 18:52:08:658 [HTTP] --> POST /wd/hub/session
+2020-03-17 18:52:08:658 [HTTP] {"desiredCapabilities":{"appPackage":"com.samsung.android.contacts","appActivity":"com.android.dialer.DialtactsActivity","platformName":"Android","deviceName":"Android"}}
+2020-03-17 18:52:08:659 [MJSONWP] Calling AppiumDriver.createSession() with args: [{"appPackage":"com.samsung.android.contacts","appActivity":"com.android.dialer.DialtactsActivity","platformName":"Android","deviceName":"Android"},null,null]
+2020-03-17 18:52:08:660 [BaseDriver] Event 'newSessionRequested' logged at 1584471128659 (00:22:08 GMT+0530 (India Standard Time))
+2020-03-17 18:52:08:663 [Appium] 
+2020-03-17 18:52:08:663 [Appium] ======================================================================
+2020-03-17 18:52:08:663 [Appium]   DEPRECATION WARNING:
+2020-03-17 18:52:08:664 [Appium] 
+2020-03-17 18:52:08:664 [Appium]   The 'automationName' capability was not provided in the desired 
+2020-03-17 18:52:08:664 [Appium]   capabilities for this Android session
+2020-03-17 18:52:08:664 [Appium] 
+2020-03-17 18:52:08:665 [Appium]   Setting 'automationName=UiAutomator2' by default and using the 
+2020-03-17 18:52:08:665 [Appium]   UiAutomator2 Driver
+2020-03-17 18:52:08:665 [Appium] 
+2020-03-17 18:52:08:666 [Appium]   The next major version of Appium (2.x) will **require** the 
+2020-03-17 18:52:08:666 [Appium]   'automationName' capability to be set for all sessions on all 
+2020-03-17 18:52:08:666 [Appium]   platforms
+2020-03-17 18:52:08:667 [Appium] 
+2020-03-17 18:52:08:667 [Appium]   In previous versions (Appium <= 1.13.x), the default was 
+2020-03-17 18:52:08:668 [Appium]   'automationName=UiAutomator1'
+2020-03-17 18:52:08:668 [Appium] 
+2020-03-17 18:52:08:669 [Appium]   If you wish to use that automation instead of UiAutomator2, please 
+2020-03-17 18:52:08:669 [Appium]   add 'automationName=UiAutomator1' to your desired capabilities
+2020-03-17 18:52:08:669 [Appium] 
+2020-03-17 18:52:08:670 [Appium]   For more information about drivers, please visit 
+2020-03-17 18:52:08:671 [Appium]   http://appium.io/docs/en/about-appium/intro/ and explore the 
+2020-03-17 18:52:08:671 [Appium]   'Drivers' menu
+2020-03-17 18:52:08:672 [Appium] 
+2020-03-17 18:52:08:672 [Appium] ======================================================================
+2020-03-17 18:52:08:672 [Appium] 
+2020-03-17 18:52:11:260 [Appium] Appium v1.15.1 creating new AndroidUiautomator2Driver (v1.37.2) session
+2020-03-17 18:52:11:264 [BaseDriver] Creating session with MJSONWP desired capabilities: {
+2020-03-17 18:52:11:264 [BaseDriver]   "appPackage": "com.samsung.android.contacts",
+2020-03-17 18:52:11:265 [BaseDriver]   "appActivity": "com.android.dialer.DialtactsActivity",
+2020-03-17 18:52:11:265 [BaseDriver]   "platformName": "Android",
+2020-03-17 18:52:11:265 [BaseDriver]   "deviceName": "Android"
+2020-03-17 18:52:11:265 [BaseDriver] }
+2020-03-17 18:52:11:282 [BaseDriver] Session created with session id: fd7ed0f0-b64c-4f5a-b1c3-6f62260df1ce
+2020-03-17 18:52:11:283 [UiAutomator2] Starting 'com.samsung.android.contacts' directly on the device
+2020-03-17 18:52:11:933 [ADB] Found 1 'build-tools' folders under 'C:\Users\rahul\AppData\Local\Android\Sdk' (newest first):
+2020-03-17 18:52:11:934 [ADB]     C:/Users/rahul/AppData/Local/Android/Sdk/build-tools/29.0.2
+2020-03-17 18:52:11:956 [ADB] Using 'adb.exe' from 'C:\Users\rahul\AppData\Local\Android\Sdk\platform-tools\adb.exe'
+2020-03-17 18:52:11:957 [AndroidDriver] Retrieving device list
+2020-03-17 18:52:11:957 [ADB] Trying to find a connected android device
+2020-03-17 18:52:11:958 [ADB] Getting connected devices...
+2020-03-17 18:52:16:651 uncaughtException: EPIPE: broken pipe, write
+Error: EPIPE: broken pipe, write
+    at Socket._write (internal/net.js:58:25)
+    at doWrite (_stream_writable.js:435:12)
+    at writeOrBuffer (_stream_writable.js:419:5)
+    at Socket.Writable.write (_stream_writable.js:309:11)
+    at Console.log (C:\Users\rahul\AppData\Local\Programs\Appium\resources\app\node_modules\appium\node_modules\winston\lib\winston\transports\console.js:79:23)
+    at Console._write (C:\Users\rahul\AppData\Local\Programs\Appium\resources\app\node_modules\appium\node_modules\winston-transport\index.js:102:17)
+    at doWrite (C:\Users\rahul\AppData\Local\Programs\Appium\resources\app\node_modules\appium\node_modules\readable-stream\lib\_stream_writable.js:428:64)
+    at writeOrBuffer (C:\Users\rahul\AppData\Local\Programs\Appium\resources\app\node_modules\appium\node_modules\readable-stream\lib\_stream_writable.js:417:5)
+    at Console.Writable.write (C:\Users\rahul\AppData\Local\Programs\Appium\resources\app\node_modules\appium\node_modules\readable-stream\lib\_stream_writable.js:334:11)
+    at DerivedLogger.ondata (C:\Users\rahul\AppData\Local\Programs\Appium\resources\app\node_modules\appium\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:662:20)
+    at DerivedLogger.emit (events.js:228:7)
+    at addChunk (C:\Users\rahul\AppData\Local\Programs\Appium\resources\app\node_modules\appium\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:297:12)
+    at readableAddChunk (C:\Users\rahul\AppData\Local\Programs\Appium\resources\app\node_modules\appium\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:279:11)
+    at DerivedLogger.Readable.push (C:\Users\rahul\AppData\Local\Programs\Appium\resources\app\node_modules\appium\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:240:10)
+    at DerivedLogger.Transform.push (C:\Users\rahul\AppData\Local\Programs\Appium\resources\app\node_modules\appium\node_modules\winston\node_modules\readable-stream\lib\_stream_transform.js:139:32)
+    at DerivedLogger._transform (C:\Users\rahul\AppData\Local\Programs\Appium\resources\app\node_modules\appium\node_modules\winston\lib\winston\logger.js:305:12)
+    at DerivedLogger.Transform._read (C:\Users\rahul\AppData\Local\Programs\Appium\resources\app\node_modules\appium\node_modules\winston\node_modules\readable-stream\lib\_stream_transform.js:177:10)
+    at DerivedLogger.Transform._write (C:\Users\rahul\AppData\Local\Programs\Appium\resources\app\node_modules\appium\node_modules\winston\node_modules\readable-stream\lib\_stream_transform.js:164:83)
+    at doWrite (C:\Users\rahul\AppData\Local\Programs\Appium\resources\app\node_modules\appium\node_modules\winston\node_modules\readable-stream\lib\_stream_writable.js:405:139)
+    at writeOrBuffer (C:\Users\rahul\AppData\Local\Programs\Appium\resources\app\node_modules\appium\node_modules\winston\node_modules\readable-stream\lib\_stream_writable.js:394:5)
+    at DerivedLogger.Writable.write (C:\Users\rahul\AppData\Local\Programs\Appium\resources\app\node_modules\appium\node_modules\winston\node_modules\readable-stream\lib\_stream_writable.js:303:11)
+    at DerivedLogger.<computed> [as info] (C:\Users\rahul\AppData\Local\Programs\Appium\resources\app\node_modules\appium\node_modules\winston\lib\winston\create-logger.js:81:14)
