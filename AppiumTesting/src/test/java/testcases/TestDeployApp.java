@@ -33,7 +33,7 @@ public static AndroidDriver<WebElement> driver;
 		capabilities.setCapability("deviceName", "Android");
 	//	capabilities.setCapability("app", app.getAbsolutePath());
 		
-		
+	//	sCDCsrvRFRRR
 		capabilities.setCapability("appPackage", "com.android.contacts");
 		capabilities.setCapability("appActivity", "com.android.dialer.DialtactsActivity");
 		
